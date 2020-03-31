@@ -1,0 +1,595 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a, li, h2, p{
+    font-family: 'Montserrat', sans-serif;
+}
+  
+body{
+    margin: 0;
+    padding: 0;
+}
+  
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    min-height:100vh;
+}
+
+
+
+  /* ========== >>>>>> LEFT <<<<<< ========== */
+
+
+
+.col1{
+    padding: 77px 129px;
+}
+
+.col1 .title{
+    color: white;
+}
+
+.col1 .title h3{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: 500;
+    letter-spacing: 2.7px;
+    text-transform: uppercase;
+    
+    color: #505050;
+    
+    padding: 0;
+    margin: 0;
+}
+
+.col1 .title h1{
+    color: #D5003B;
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    padding: 0;
+    margin: 0;
+}
+
+.col1 .title h2{
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.col1 .title .subTitle{
+    font-size: 18.5px;
+    font-weight: 500;
+
+    padding: 0;
+    margin: 0;
+}
+
+.col1 .title .subTitle::after{
+    content: "";
+    display: block;
+    background: #4e4e5080;
+    width: 460px;
+    height: 1px;
+
+    margin: 25px 0;
+}
+
+.col1 .title .subTitle2{
+    font-size: 14px;
+    font-weight: 500;
+
+    padding: 0;
+    margin: 0;
+}
+
+.col1 .title .paragraph{
+    font-size: 12px;
+    font-weight: 500;
+    color: #505050;
+
+    padding: 0;
+    margin: 25px 0;
+}
+
+
+.col1 .lists{
+    padding: 30px;
+    background-color: #1F1F22;
+
+    color: white;
+
+    text-align: left;
+}
+
+.col1 .lists h1{
+    font-size: 12px;
+    font-weight: 600;
+    color: hsl(343, 100%, 42%);
+
+    padding-bottom: 10px;
+    margin: 0;
+}
+
+.col1 .lists ul{
+    font-size: 10px;
+    font-weight: 400;
+
+    padding: 0 10px;
+    margin: 0;
+}
+
+.col1 .lists ul li{
+    padding: 5px;
+}
+
+
+.col1 .fillOut{
+    display: inline-flex;
+    margin-top: 25px;
+}
+
+.fillOut img{
+    height: 60px;
+    margin: 10px 5px 10px 0;
+}
+
+.col1 .fillOut .free{
+    padding: 18px;
+    width: 310px;
+    height: fit-content;
+
+    background-color: #2B171F;
+    color: white;
+}
+
+.col1 .fillOut .free h2{
+    font-size: 11px;
+    font-weight: 400;
+
+    padding: 0;
+    margin: 0;
+}
+
+.fillOut #free{
+    font-weight: 700;
+}
+
+.fillOut #top10{
+    color: #D5003B;
+    font-weight: 600;
+}
+
+.fa-chevron-right{
+    font-size: 30px;
+    color: #D5003B;
+    padding: 24px 12px;
+
+    transition: color .3s ease-in-out;
+}
+
+.fa-chevron-right:hover{
+    color: rgb(255, 0, 64);
+}
+
+
+
+  /* ========== >>>>>> RIGHT <<<<<< ========== */
+
+.col2{
+    align-items: center;
+    text-align: center;
+    padding: 77px 100px;
+}
+
+.signUp{
+    display: inline-flex;
+}
+
+.signUp img{
+    height: 100px;
+
+    padding: 0;
+    margin: 0;
+    margin-right: 35px;
+}
+
+.signUp h2{
+    font-size: 28px;
+    font-weight: 650;
+    text-align: left;
+
+    padding: 0;
+    margin: 0;
+}
+
+.signUp h2 .freeSpan{
+    font-size: 30px;
+}
+
+/* FORM */
+
+.fillUp{
+    border: 2px solid black;
+
+    margin-top: 40px;
+    padding: 30px 50px;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 16px 8px;
+    margin: 8px 0;
+    display: inline-block;
+    border: none;
+    border-bottom: 2px solid black;
+    outline: none;
+  
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(0, 0, 0);
+}
+
+input::placeholder{
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 11px;
+    font-weight: 600;
+    color: rgb(36, 36, 36);
+
+}
+
+/* TERMS AND CONDITIONS */
+
+.Signup-form .terms{
+    width: 100%;
+    padding: 16px 8px;
+    margin: 20px 0 0 0;
+    display: inline-block;
+    border: 1px none black;
+    box-sizing: border-box;
+    background-color: #1A1A1D;
+
+    color: white;
+    text-decoration: none;
+    font-size: 11px;
+    text-align: center;
+}
+
+.terms span a{
+    text-decoration: none;
+    color: #F50057;
+    font-weight: 600;
+}
+
+input[type=checkbox] + label {
+    display: block;
+    margin: 0.2em;
+    cursor: pointer;
+    padding: 0.2em;
+  }
+  
+  input[type=checkbox] {
+    display: none;
+  }
+  
+  input[type=checkbox] + label:before {
+    content: "\2713";
+    border: 0.1em solid rgb(255, 255, 255);
+    border-radius: 0px;
+    display: inline-block;
+    height: 8px;
+    padding-left: 0.2em;
+    padding-bottom: 0.4em;
+    padding: 0 2px 4px 2px;
+    vertical-align: bottom;
+    color: transparent;
+    transition: .2s;
+
+    margin: 0 13px;
+  }
+  
+  input[type=checkbox] + label:active:before {
+    transform: scale(0);
+  }
+  
+  input[type=checkbox]:checked + label:before {
+    background-color: #F50057;
+    border-color: #F50057;
+    color: #fff;
+  }
+
+
+  /* DOWNLOAD BUTTON */
+
+.download{
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+    
+    margin: 15px auto;
+    padding: 10px;
+}
+
+
+.download button{
+    cursor: pointer;
+    color: white;
+    font-size: 15px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    outline: none;
+    border: none;
+    background-color: #f50057;
+    padding: 15px 35px;
+
+    margin: 0;
+    transition: padding .4s ease-in-out;
+}
+
+.download button:hover{
+    background-color: #ff004c
+}
+
+.fa-chevron-circle-down{
+    font-size: 25px;
+    color: white;
+    background-color: #DC004E;
+    border: 1px solid rgb(207, 4, 75);
+   
+    margin: 0;
+    padding: 11px;
+}
+
+
+
+@media only screen and (min-width:1194px) and (max-width: 1280px){
+
+    .col1 .title h1{
+        font-size: 37px;
+    }
+
+    .col1 .title .subTitle{
+        font-size: 15px;
+
+    }
+
+    .col1 .title .subTitle::after{
+        width: 380px;
+    }
+
+    .col1 .title .subTitle2{
+        font-size: 11px;
+    }
+
+    .col1 .title .paragraph{
+        font-size: 11px;
+    }
+
+    .col1 .lists{
+        padding: 25px;
+        margin-top: 30px;
+    }
+
+    .col1 .lists h1{
+        font-size: 9px;
+    }
+
+    .col1 .lists ul{
+        font-size: 8px;
+    }
+
+    .fillOut img{
+        margin: 2px 5px 5px 0;
+        height: 49px;
+    }
+
+    .col1 .fillOut .free{
+        padding: 10px;
+        width: 270px;
+    }
+    
+    .col1 .fillOut .free h2{
+        font-size: 8px;
+    }
+
+    .fa-chevron-right{
+        font-size: 20px;
+        padding: 16px 5px;
+    }
+
+
+    /* RIGHT */
+
+    .signUp img{
+        height: 91px;
+    }
+
+    .signUp h2{
+        font-size: 25px;
+    }
+
+    .fillUp{
+        margin-top: 30px;
+        padding: 30px 40px;
+    }
+
+    input[type=text]{
+        width: 95%;
+        padding: 13px 5px;
+        font-size: 12px;
+    }
+
+    input::placeholder{
+        font-size: 9px;
+    }
+
+    /* TERMS */
+
+    .Signup-form .terms{
+        width: 95%;
+        padding: 12px 5px;
+        font-size: 9px;
+
+    }
+
+    input[type=checkbox] + label:before{
+        height: 5px;
+        width: 5px;
+    }
+}
+
+
+@media only screen and (min-width:1024px) and (max-width: 1193px){
+
+    .col1{
+        padding: 77px 100px;
+    }
+
+    .col1 .title h3{
+        font-size: 7px;
+    }
+
+    .col1 .title h1{
+        color: #D5003B;
+        font-size: 30px;
+    }
+
+    .col1 .title .subTitle{
+        font-size: 12.3px;
+
+    }
+
+    .col1 .title .subTitle::after{
+        width: 300px;
+        margin-top: 15px;
+    }
+
+    .col1 .title .subTitle2{
+        font-size: 9px;
+    }
+
+    .col1 .title .paragraph{
+        font-size: 7px;
+        margin-top: 10px;
+    }
+
+    .col1 .lists{
+        padding: 15px;
+        margin-top: 10px;
+    }
+
+    .col1 .lists h1{
+        font-size: 7px;
+        padding-bottom: 5px;
+    }
+
+    .col1 .lists ul{
+        font-size: 6px;
+    }
+
+    .col1 .fillOut{
+        margin-top: 20px;
+    }
+
+    .fillOut img{
+        margin: 2px 5px 5px 0;
+        height: 35px;
+    }
+
+    .col1 .fillOut .free{
+        padding: 7px;
+        width: 220px;
+    }
+    
+    .col1 .fillOut .free h2{
+        font-size: 6px;
+    }
+
+    .fa-chevron-right{
+        font-size: 15px;
+        padding: 11px 7px;
+    }
+
+
+    /* RIGHT */
+
+    .col2{
+        padding: 70px 80px;
+    }
+
+    .signUp img{
+        height: 70px;
+        margin-right: 20px;
+    }
+
+    .signUp h2{
+        font-size: 18px;
+    }
+
+    .signUp h2 .freeSpan{
+        font-size: 25px;
+    }
+
+    .fillUp{
+        margin-top: 18px;
+        padding: 5px 10px;
+    }
+
+    input[type=text]{
+        width: 90%;
+        padding: 10px 5px;
+        font-size: 10px;
+        width: 80%;
+    }
+
+    input::placeholder{
+        font-size: 8px;
+    }
+
+    /* TERMS */
+
+
+    .Signup-form .terms{
+        width: 80%;
+        padding: 8px 4px;
+        font-size: 7px;
+
+        margin: 10px 0 5px 0;
+    }
+
+    input[type=checkbox] + label:before{
+        height: 3px;
+        width: 3.5px;
+    }
+
+    /* Download */
+
+    .download{
+        margin-top: 8px;
+    }
+
+    .download button{
+        font-size: 12px;
+        padding: 9px 30px;
+    }
+
+    .fa-chevron-circle-down{
+        font-size: 19.5px;
+        border: 1px solid rgb(207, 4, 75);
+        padding: 6px;
+    }
+
+}
